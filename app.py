@@ -24,7 +24,7 @@ def prime(n):
         "Prime": True,
         "IP_Adress":ip
         }
-    return result
+    return jsonify(result)
 
 
 
